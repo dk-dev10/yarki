@@ -1,5 +1,23 @@
-$red: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-h1 {
-  color: $red;
+html,
+body {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url('./assets/img/home_bg.jpeg');
+
+  .circle {
+    background: linear-gradient(147.64deg, #ffffff 13.56%, #f1f1f1 85.54%);
+  }
 }
